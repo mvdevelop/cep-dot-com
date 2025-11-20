@@ -2,9 +2,9 @@
 [
   {
     "id": 1,
-    "season": "1.1",
-    "name": "1.1 - Início",
-    "description": "A jornada começa quando o elo entre mundos é descoberto. Mistérios antigos e novos heróis surgem.",
+    "season": "HTML",
+    "name": "HTML",
+    "description": "HTML (HyperText Markup Language) é a linguagem base da web, utilizada para estruturar e organizar o conteúdo de páginas, definindo elementos como textos, links, imagens, formulários e seções. Ele fornece a “ossatura” do site sobre a qual CSS e JavaScript atuam.",
     "image-01": "banner1.jpg",
     "pages": [
       {
@@ -19,8 +19,8 @@
   },
   {
     "id": 2,
-    "season": "1.2",
-    "name": "1.2 - Ecos do Despertar",
+    "season": "CSS",
+    "name": "CSS",
     "description": "O elo desperta forças adormecidas, revelando segredos do passado e o verdadeiro inimigo por trás da escuridão.",
     "image-01": "ancient-creature.jpg",
     "pages": [

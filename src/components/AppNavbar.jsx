@@ -19,7 +19,7 @@ function AppNavbar() {
             height="40"
             className="d-inline-block align-top me-2"
           />
-          <h4 className="mb-0 fw-bold">ELO</h4>
+          <h4 className="mb-0 fw-bold">DEV LIB</h4>
         </Navbar.Brand>
 
         {/* Toggle para mobile */}
@@ -29,7 +29,7 @@ function AppNavbar() {
         <Navbar.Collapse id="navbar-content" className="justify-content-between">
           <Nav className="me-auto nav-links">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#temporadas">Temporadas</Nav.Link>
+            <Nav.Link href="#conteudo">Conteúdo</Nav.Link>
             <Nav.Link href="#extra">Extra</Nav.Link>
             <Nav.Link href="#sobre">Sobre</Nav.Link>
             <Nav.Link href="#contato">Contato</Nav.Link>

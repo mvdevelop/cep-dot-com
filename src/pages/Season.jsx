@@ -3,12 +3,12 @@ import React, { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { Container, Row, Col, Button } from "react-bootstrap";
 
-import temporadasData from "../data/Temporadas.json";
+import contentData from "../data/Content.json";
 
 function Season() {
   const { id } = useParams();
   const navigate = useNavigate();
-  const season = temporadasData.find((s) => s.id === parseInt(id));
+  const season = contentData.find((s) => s.id === parseInt(id));
 
   const [pageIndex, setPageIndex] = useState(0);
 
