@@ -18,11 +18,10 @@ function Footer() {
                 height="45"
                 className="me-2"
               />
-              <h4 className="mb-0">Elo.com</h4>
+              <h4 className="mb-0">DEV LIB</h4>
             </div>
             <p className="text-secondary small">
-              Uma HQ moderna e envolvente, criada para fãs de boas histórias e
-              universos fantásticos. Explore nossos conteúdos e descubra mais.
+              A Dev Library é uma aplicação criada para organizar e centralizar conteúdos de estudo em desenvolvimento, como artigos, vídeos, links, códigos e anotações. Ela funciona como uma biblioteca pessoal de aprendizado, oferecendo uma interface rápida e intuitiva para pesquisar, visualizar e gerenciar materiais, ajudando o usuário a estudar de forma mais eficiente e estruturada.
             </p>
           </Col>
 

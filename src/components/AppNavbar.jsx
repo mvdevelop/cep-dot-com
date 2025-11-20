@@ -28,7 +28,7 @@ function AppNavbar() {
         {/* Links e botões */}
         <Navbar.Collapse id="navbar-content" className="justify-content-between">
           <Nav className="me-auto nav-links">
-            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="#conteudo">Conteúdo</Nav.Link>
             <Nav.Link href="#extra">Extra</Nav.Link>
             <Nav.Link href="#sobre">Sobre</Nav.Link>

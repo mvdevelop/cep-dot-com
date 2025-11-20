@@ -32,7 +32,7 @@ export default function Coments() {
       {/* ===== Seção de Comentários ===== */}
       <section className="bg-light py-5">
         <Container>
-          <h2 className="text-center mb-4 fw-bold">Fórum dos Leitores 💬</h2>
+          <h2 className="text-center mb-4 fw-bold">Fórum dos Usuários 💬</h2>
 
           {/* Formulário */}
           <Form onSubmit={handleAddComment} className="mb-4">
@@ -41,7 +41,7 @@ export default function Coments() {
                 <Form.Control
                   as="textarea"
                   rows={3}
-                  placeholder="Compartilhe sua opinião sobre as temporadas..."
+                  placeholder="Compartilhe sua opinião sobre sua experiência com a dev lib..."
                   value={newComment}
                   onChange={(e) => setNewComment(e.target.value)}
                 />

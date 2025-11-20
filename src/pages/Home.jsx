@@ -19,7 +19,7 @@ import Extra from "./Extra";
 import Coments from "../components/Coments";
 
 function Home() {
-  const [ content, setContent ] = useState([]);
+  const [content, setContent] = useState([]);
 
   useEffect(() => {
     setContent(contentData);
@@ -54,7 +54,7 @@ function Home() {
               >
                 <div className="d-flex flex-column justify-content-center align-items-center text-center h-100 text-white bg-dark bg-opacity-50">
                   <h1 className="display-4 fw-bold">Dev Library</h1>
-                  <p className="lead"></p>
+                  <p className="lead fw-bold container">A Dev Library é uma aplicação criada para organizar e centralizar conteúdos de estudo em desenvolvimento, como artigos, vídeos, links, códigos e anotações. Ela funciona como uma biblioteca pessoal de aprendizado, oferecendo uma interface rápida e intuitiva para pesquisar, visualizar e gerenciar materiais, ajudando o usuário a estudar de forma mais eficiente e estruturada.</p>
                 </div>
               </div>
             </SwiperSlide>
@@ -109,32 +109,34 @@ function Home() {
       </section>
 
       {/* ===== Seção About ===== */}
-      {/* <section className="bg-dark text-light py-5" id="sobre">
+      <section className="bg-dark text-light py-5" id="sobre">
         <Container>
           <Row className="align-items-center">
             <Col md={6}>
               <img
                 src="#"
-                alt="About Elo.com"
+                alt="About Dev Lib"
                 className="img-fluid rounded shadow"
               />
             </Col>
             <Col md={6} className="mt-4 mt-md-0">
-              <h2 className="fw-bold mb-3">Sobre a HQ</h2>
+              <h2 className="fw-bold mb-3">Sobre a Dev Library</h2>
               <p className="text-secondary">
-                A Elo.com é uma HQ original que combina narrativa intensa,
-                personagens marcantes e um universo visualmente impactante.
-                Criada com dedicação e paixão, cada temporada traz novas
-                aventuras, desafios e descobertas.
+                A Dev Library é uma plataforma criada para organizar e centralizar conteúdos
+                de estudo em desenvolvimento, reunindo materiais valiosos como artigos, vídeos,
+                códigos e anotações. Construída com dedicação e foco no aprendizado contínuo,
+                cada nova categoria e recurso adiciona mais possibilidades à sua jornada.
               </p>
+
               <p className="text-secondary">
-                Nossa missão é conectar leitores ao poder da imaginação,
-                mostrando que toda história pode criar um elo entre mundos.
+                Nossa missão é conectar desenvolvedores ao conhecimento, mostrando que todo
+                conteúdo certo no momento certo pode ser um passo essencial na evolução de
+                qualquer pessoa na área tech.
               </p>
             </Col>
           </Row>
         </Container>
-      </section> */}
+      </section>
 
       <Coments />
 
