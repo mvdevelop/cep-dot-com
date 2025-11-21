@@ -18,10 +18,11 @@ function Footer() {
                 height="45"
                 className="me-2"
               />
-              <h4 className="mb-0">DEV LIB</h4>
+              <h4 className="mb-0">CEP</h4>
             </div>
             <p className="text-secondary small">
-              A Dev Library é uma aplicação criada para organizar e centralizar conteúdos de estudo em desenvolvimento, como artigos, vídeos, links, códigos e anotações. Ela funciona como uma biblioteca pessoal de aprendizado, oferecendo uma interface rápida e intuitiva para pesquisar, visualizar e gerenciar materiais, ajudando o usuário a estudar de forma mais eficiente e estruturada.
+              O CEP (Copa do Ensino Público) é uma plataforma criada para organizar e centralizar conteúdos de reforço escolar para estudantes de escolas públicas. Aqui, você encontra materiais como resumos, videoaulas, exercícios, links úteis e anotações. 
+              O site funciona como uma biblioteca de estudos acessível e prática, oferecendo uma interface rápida e intuitiva para pesquisar, visualizar e gerenciar conteúdos. O objetivo é ajudar cada aluno a aprender de forma mais eficiente, estruturada e preparada para superar desafios acadêmicos.
             </p>
           </Col>
 

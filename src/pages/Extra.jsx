@@ -9,9 +9,9 @@ export default function Extra() {
 
         {/* Título principal */}
         <header className="text-center mb-5">
-          <h1 className="display-5 fw-bold">Curiosidades do Mundo da Tecnologia</h1>
+          <h1 className="display-5 fw-bold">Curiosidades do Mundo Escolar</h1>
           <p className="text-secondary">
-            Descubra fatos interessantes e momentos marcantes que moldaram o desenvolvimento de softwares e a evolução da web.
+            Fatos históricos, descobertas científicas e momentos marcantes que transformaram a educação e o conhecimento humano.
           </p>
         </header>
 
@@ -19,22 +19,19 @@ export default function Extra() {
         <Row className="align-items-center mb-5">
           <Col md={6}>
             <img
-              src="https://via.placeholder.com/600x400?text=Evolução+da+Web"
-              alt="Evolução da Web"
+              src="https://via.placeholder.com/600x400?text=Hist%C3%B3ria+da+Educa%C3%A7%C3%A3o"
+              alt="História da Educação"
               className="img-fluid rounded shadow"
             />
           </Col>
           <Col md={6}>
-            <h3 className="fw-bold mb-3">A Evolução da Web</h3>
+            <h3 className="fw-bold mb-3">A Evolução da Educação</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales nisl sed
-              ligula vestibulum, id varius sem fringilla. Morbi vel arcu eget lectus volutpat
-              vulputate. Sed eu mi eget justo sagittis tempor.
+              Desde as primeiras formas de escrita até as escolas modernas, a educação passou por transformações que moldaram a forma como aprendemos hoje.
+              Instituições, métodos e ideias foram surgindo ao longo dos séculos, tornando o conhecimento cada vez mais acessível.
             </p>
             <p>
-              Donec commodo, massa at cursus aliquet, neque est vestibulum elit, at rhoncus purus
-              enim non neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-              posuere cubilia curae.
+              Mesmo com todos os avanços, o objetivo permanece o mesmo: preparar pessoas para compreender o mundo, desenvolver habilidades e abrir portas para novas oportunidades.
             </p>
           </Col>
         </Row>
@@ -43,21 +40,19 @@ export default function Extra() {
         <Row className="align-items-center flex-md-row-reverse mb-5">
           <Col md={6}>
             <img
-              src="https://via.placeholder.com/600x400?text=Linguagens+de+Programação"
-              alt="Linguagens de Programação"
+              src="https://via.placeholder.com/600x400?text=Grandes+Descobertas"
+              alt="Grandes Descobertas"
               className="img-fluid rounded shadow"
             />
           </Col>
           <Col md={6}>
-            <h3 className="fw-bold mb-3">O Surgimento das Linguagens Modernas</h3>
+            <h3 className="fw-bold mb-3">Grandes Descobertas que Mudaram o Mundo</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt magna sit
-              amet metus dictum, sit amet varius eros porttitor. Suspendisse interdum ligula sit
-              amet mi malesuada, sit amet maximus justo fermentum.
+              A história da ciência é marcada por descobertas que revolucionaram completamente o conhecimento humano. 
+              Da matemática à biologia, cada avanço abriu caminho para novas áreas de estudo.
             </p>
             <p>
-              Nam convallis justo nec elit interdum, ut viverra nunc faucibus. In tristique congue
-              metus, a tincidunt ipsum volutpat at.
+              Muitas dessas descobertas são estudadas até hoje nas escolas, ajudando estudantes a entender conceitos fundamentais e enxergar como a ciência evolui com o tempo.
             </p>
           </Col>
         </Row>
@@ -70,10 +65,9 @@ export default function Extra() {
             <Col md={4} className="mb-4">
               <Card bg="secondary" text="light" className="h-100 shadow-sm">
                 <Card.Body>
-                  <Card.Title>Primeiro Site da História</Card.Title>
+                  <Card.Title>A Origem da Escrita</Card.Title>
                   <Card.Text>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultricies enim
-                    sed urna efficitur gravida.
+                    A primeira forma de escrita conhecida surgiu há mais de 5 mil anos, na Mesopotâmia, permitindo registrar histórias, contas e conhecimentos.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -82,10 +76,9 @@ export default function Extra() {
             <Col md={4} className="mb-4">
               <Card bg="secondary" text="light" className="h-100 shadow-sm">
                 <Card.Body>
-                  <Card.Title>A Criação do JavaScript</Card.Title>
+                  <Card.Title>A Invenção do Zero</Card.Title>
                   <Card.Text>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum
-                    primis in faucibus orci luctus et ultrices.
+                    O número zero, essencial na matemática moderna, foi criado por civilizações antigas como parte fundamental para cálculos complexos.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -94,10 +87,9 @@ export default function Extra() {
             <Col md={4} className="mb-4">
               <Card bg="secondary" text="light" className="h-100 shadow-sm">
                 <Card.Body>
-                  <Card.Title>Frameworks da Nova Geração</Card.Title>
+                  <Card.Title>O Primeiro Livro Impresso</Card.Title>
                   <Card.Text>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
-                    condimentum tortor vel ultrices.
+                    A prensa de Gutenberg revolucionou o acesso ao conhecimento ao permitir que livros fossem produzidos em grande escala.
                   </Card.Text>
                 </Card.Body>
               </Card>

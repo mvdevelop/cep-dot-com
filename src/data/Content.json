@@ -2,14 +2,14 @@
 [
   {
     "id": 1,
-    "season": "HTML",
-    "name": "HTML",
-    "description": "HTML (HyperText Markup Language) é a linguagem base da web, utilizada para estruturar e organizar o conteúdo de páginas, definindo elementos como textos, links, imagens, formulários e seções. Ele fornece a “ossatura” do site sobre a qual CSS e JavaScript atuam.",
-    "image-01": "html.png",
+    "season": "Português",
+    "name": "Português",
+    "description": "Português é a disciplina fundamental para o desenvolvimento da comunicação, sendo responsável por estruturar e organizar a forma como usamos a língua no dia a dia. A matéria abrange leitura, interpretação de textos, gramática, ortografia, redação e análise linguística.",
+    "image-01": "portugues.jpg",
     "pages": [
       {
-        "img": "/html.png",
-        "text": "HTML (HyperText Markup Language) é a linguagem base da web, utilizada para estruturar e organizar o conteúdo de páginas, definindo elementos como textos, links, imagens, formulários e seções. Ele fornece a “ossatura” do site sobre a qual CSS e JavaScript atuam."
+        "img": "/portugues.jpg",
+        "text": "Português é a disciplina fundamental para o desenvolvimento da comunicação, sendo responsável por estruturar e organizar a forma como usamos a língua no dia a dia. A matéria abrange leitura, interpretação de textos, gramática, ortografia, redação e análise linguística."
       },
       {
         "img": "/page1.2.jpg",
@@ -70,10 +70,10 @@
   },
   {
     "id": 5,
-    "season": "3.1",
-    "name": "3.1 - Ecos do Despertar",
-    "description": "O elo desperta forças adormecidas, revelando segredos do passado e o verdadeiro inimigo por trás da escuridão.",
-    "image-01": "ancient-creature.jpg",
+    "season": "",
+    "name": "",
+    "description": "",
+    "image-01": "",
     "pages": [
       {
         "img": "season3/page1.jpg",
@@ -81,261 +81,6 @@
       },
       {
         "img": "season3/page2.jpg",
-        "text": "Aqueles que ouviram o chamado agora marcham em direção ao despertar."
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "season": "3.2",
-    "name": "3.2 - Ecos do Despertar",
-    "description": "O elo desperta forças adormecidas, revelando segredos do passado e o verdadeiro inimigo por trás da escuridão.",
-    "image-01": "ancient-creature.jpg",
-    "pages": [
-      {
-        "img": "season3/page1.jpg",
-        "text": "Os ecos do elo se espalham por mundos esquecidos..."
-      },
-      {
-        "img": "season3/page2.jpg",
-        "text": "Aqueles que ouviram o chamado agora marcham em direção ao despertar."
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "season": "4.1",
-    "name": "4.1 - Ecos do Despertar",
-    "description": "O elo desperta forças adormecidas, revelando segredos do passado e o verdadeiro inimigo por trás da escuridão.",
-    "image-01": "ancient-creature.jpg",
-    "pages": [
-      {
-        "img": "season4/page1.jpg",
-        "text": "Os ecos do elo se espalham por mundos esquecidos..."
-      },
-      {
-        "img": "season4/page2.jpg",
-        "text": "Aqueles que ouviram o chamado agora marcham em direção ao despertar."
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "season": "4.2",
-    "name": "4.2 - Ecos do Despertar",
-    "description": "O elo desperta forças adormecidas, revelando segredos do passado e o verdadeiro inimigo por trás da escuridão.",
-    "image-01": "ancient-creature.jpg",
-    "pages": [
-      {
-        "img": "season4/page1.jpg",
-        "text": "Os ecos do elo se espalham por mundos esquecidos..."
-      },
-      {
-        "img": "season4/page2.jpg",
-        "text": "Aqueles que ouviram o chamado agora marcham em direção ao despertar."
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "season": "5.1",
-    "name": "5.1 - Ecos do Despertar",
-    "description": "O elo desperta forças adormecidas, revelando segredos do passado e o verdadeiro inimigo por trás da escuridão.",
-    "image-01": "ancient-creature.jpg",
-    "pages": [
-      {
-        "img": "season4/page1.jpg",
-        "text": "Os ecos do elo se espalham por mundos esquecidos..."
-      },
-      {
-        "img": "season4/page2.jpg",
-        "text": "Aqueles que ouviram o chamado agora marcham em direção ao despertar."
-      }
-    ]
-  },
-  {
-    "id": 10,
-    "season": "5.2",
-    "name": "5.2 - Ecos do Despertar",
-    "description": "O elo desperta forças adormecidas, revelando segredos do passado e o verdadeiro inimigo por trás da escuridão.",
-    "image-01": "ancient-creature.jpg",
-    "pages": [
-      {
-        "img": "season4/page1.jpg",
-        "text": "Os ecos do elo se espalham por mundos esquecidos..."
-      },
-      {
-        "img": "season4/page2.jpg",
-        "text": "Aqueles que ouviram o chamado agora marcham em direção ao despertar."
-      }
-    ]
-  },
-  {
-    "id": 11,
-    "season": "6.1",
-    "name": "6.1 - Ecos do Despertar",
-    "description": "O elo desperta forças adormecidas, revelando segredos do passado e o verdadeiro inimigo por trás da escuridão.",
-    "image-01": "ancient-creature.jpg",
-    "pages": [
-      {
-        "img": "season4/page1.jpg",
-        "text": "Os ecos do elo se espalham por mundos esquecidos..."
-      },
-      {
-        "img": "season4/page2.jpg",
-        "text": "Aqueles que ouviram o chamado agora marcham em direção ao despertar."
-      }
-    ]
-  },
-  {
-    "id": 12,
-    "season": "6.2",
-    "name": "6.2 - Ecos do Despertar",
-    "description": "O elo desperta forças adormecidas, revelando segredos do passado e o verdadeiro inimigo por trás da escuridão.",
-    "image-01": "ancient-creature.jpg",
-    "pages": [
-      {
-        "img": "season4/page1.jpg",
-        "text": "Os ecos do elo se espalham por mundos esquecidos..."
-      },
-      {
-        "img": "season4/page2.jpg",
-        "text": "Aqueles que ouviram o chamado agora marcham em direção ao despertar."
-      }
-    ]
-  },
-  {
-    "id": 13,
-    "season": "7.1",
-    "name": "7.1 - Ecos do Despertar",
-    "description": "O elo desperta forças adormecidas, revelando segredos do passado e o verdadeiro inimigo por trás da escuridão.",
-    "image-01": "ancient-creature.jpg",
-    "pages": [
-      {
-        "img": "season4/page1.jpg",
-        "text": "Os ecos do elo se espalham por mundos esquecidos..."
-      },
-      {
-        "img": "season4/page2.jpg",
-        "text": "Aqueles que ouviram o chamado agora marcham em direção ao despertar."
-      }
-    ]
-  },
-  {
-    "id": 14,
-    "season": "7.2",
-    "name": "7.2 - Ecos do Despertar",
-    "description": "O elo desperta forças adormecidas, revelando segredos do passado e o verdadeiro inimigo por trás da escuridão.",
-    "image-01": "ancient-creature.jpg",
-    "pages": [
-      {
-        "img": "season4/page1.jpg",
-        "text": "Os ecos do elo se espalham por mundos esquecidos..."
-      },
-      {
-        "img": "season4/page2.jpg",
-        "text": "Aqueles que ouviram o chamado agora marcham em direção ao despertar."
-      }
-    ]
-  },
-  {
-    "id": 15,
-    "season": "8.1",
-    "name": "8.1 - Ecos do Despertar",
-    "description": "O elo desperta forças adormecidas, revelando segredos do passado e o verdadeiro inimigo por trás da escuridão.",
-    "image-01": "ancient-creature.jpg",
-    "pages": [
-      {
-        "img": "season4/page1.jpg",
-        "text": "Os ecos do elo se espalham por mundos esquecidos..."
-      },
-      {
-        "img": "season4/page2.jpg",
-        "text": "Aqueles que ouviram o chamado agora marcham em direção ao despertar."
-      }
-    ]
-  },
-  {
-    "id": 16,
-    "season": "8.2",
-    "name": "8.2 - Ecos do Despertar",
-    "description": "O elo desperta forças adormecidas, revelando segredos do passado e o verdadeiro inimigo por trás da escuridão.",
-    "image-01": "ancient-creature.jpg",
-    "pages": [
-      {
-        "img": "season4/page1.jpg",
-        "text": "Os ecos do elo se espalham por mundos esquecidos..."
-      },
-      {
-        "img": "season4/page2.jpg",
-        "text": "Aqueles que ouviram o chamado agora marcham em direção ao despertar."
-      }
-    ]
-  },
-  {
-    "id": 17,
-    "season": "9.1",
-    "name": "9.1 - Ecos do Despertar",
-    "description": "O elo desperta forças adormecidas, revelando segredos do passado e o verdadeiro inimigo por trás da escuridão.",
-    "image-01": "ancient-creature.jpg",
-    "pages": [
-      {
-        "img": "season4/page1.jpg",
-        "text": "Os ecos do elo se espalham por mundos esquecidos..."
-      },
-      {
-        "img": "season4/page2.jpg",
-        "text": "Aqueles que ouviram o chamado agora marcham em direção ao despertar."
-      }
-    ]
-  },
-  {
-    "id": 18,
-    "season": "9.2",
-    "name": "9.2 - Ecos do Despertar",
-    "description": "O elo desperta forças adormecidas, revelando segredos do passado e o verdadeiro inimigo por trás da escuridão.",
-    "image-01": "ancient-creature.jpg",
-    "pages": [
-      {
-        "img": "season4/page1.jpg",
-        "text": "Os ecos do elo se espalham por mundos esquecidos..."
-      },
-      {
-        "img": "season4/page2.jpg",
-        "text": "Aqueles que ouviram o chamado agora marcham em direção ao despertar."
-      }
-    ]
-  },
-  {
-    "id": 19,
-    "season": "10.1",
-    "name": "10.1 - Ecos do Despertar",
-    "description": "O elo desperta forças adormecidas, revelando segredos do passado e o verdadeiro inimigo por trás da escuridão.",
-    "image-01": "ancient-creature.jpg",
-    "pages": [
-      {
-        "img": "season4/page1.jpg",
-        "text": "Os ecos do elo se espalham por mundos esquecidos..."
-      },
-      {
-        "img": "season4/page2.jpg",
-        "text": "Aqueles que ouviram o chamado agora marcham em direção ao despertar."
-      }
-    ]
-  },
-  {
-    "id": 20,
-    "season": "10.2",
-    "name": "10.2 - Ecos do Despertar",
-    "description": "O elo desperta forças adormecidas, revelando segredos do passado e o verdadeiro inimigo por trás da escuridão.",
-    "image-01": "ancient-creature.jpg",
-    "pages": [
-      {
-        "img": "season4/page1.jpg",
-        "text": "Os ecos do elo se espalham por mundos esquecidos..."
-      },
-      {
-        "img": "season4/page2.jpg",
         "text": "Aqueles que ouviram o chamado agora marcham em direção ao despertar."
       }
     ]

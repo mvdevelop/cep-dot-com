@@ -53,8 +53,8 @@ function Home() {
                 }}
               >
                 <div className="d-flex flex-column justify-content-center align-items-center text-center h-100 text-white bg-dark bg-opacity-50">
-                  <h1 className="display-4 fw-bold">Dev Library</h1>
-                  <p className="lead fw-bold container">A Dev Library é uma aplicação criada para organizar e centralizar conteúdos de estudo em desenvolvimento, como artigos, vídeos, links, códigos e anotações. Ela funciona como uma biblioteca pessoal de aprendizado, oferecendo uma interface rápida e intuitiva para pesquisar, visualizar e gerenciar materiais, ajudando o usuário a estudar de forma mais eficiente e estruturada.</p>
+                  <h1 className="display-4 fw-bold">CEP</h1>
+                  <p className="lead fw-bold container">O CEP (Copa do Ensino Público) é uma plataforma criada para organizar e centralizar conteúdos de reforço escolar para estudantes de escolas públicas. Aqui, você encontra materiais como resumos, videoaulas, exercícios, links úteis e anotações. </p>
                 </div>
               </div>
             </SwiperSlide>
@@ -120,18 +120,19 @@ function Home() {
               />
             </Col>
             <Col md={6} className="mt-4 mt-md-0">
-              <h2 className="fw-bold mb-3">Sobre a Dev Library</h2>
+              <h2 className="fw-bold mb-3">Sobre a CEP</h2>
               <p className="text-secondary">
-                A Dev Library é uma plataforma criada para organizar e centralizar conteúdos
-                de estudo em desenvolvimento, reunindo materiais valiosos como artigos, vídeos,
-                códigos e anotações. Construída com dedicação e foco no aprendizado contínuo,
-                cada nova categoria e recurso adiciona mais possibilidades à sua jornada.
+                O CEP (Copa do Ensino Público) é uma plataforma criada para organizar e centralizar
+                conteúdos de reforço escolar, reunindo materiais valiosos como resumos, videoaulas,
+                exercícios, explicações e anotações. Pensado com dedicação e focado no aprendizado
+                contínuo dos estudantes, cada nova matéria e recurso adicionado amplia ainda mais
+                as possibilidades de estudo.
               </p>
 
               <p className="text-secondary">
-                Nossa missão é conectar desenvolvedores ao conhecimento, mostrando que todo
-                conteúdo certo no momento certo pode ser um passo essencial na evolução de
-                qualquer pessoa na área tech.
+                Nossa missão é aproximar os alunos do conhecimento, mostrando que o conteúdo certo
+                no momento certo pode transformar o aprendizado e fortalecer a base escolar de
+                qualquer estudante da rede pública.
               </p>
             </Col>
           </Row>

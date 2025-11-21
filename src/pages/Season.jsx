@@ -13,7 +13,7 @@ function Season() {
   const [pageIndex, setPageIndex] = useState(0);
 
   if (!season) {
-    return <p className="text-center mt-5">Temporada não encontrada.</p>;
+    return <p className="text-center mt-5">Página não encontrada.</p>;
   }
 
   const currentPage = season.pages[pageIndex];
@@ -63,7 +63,7 @@ function Season() {
 
       <div className="text-center mt-4">
         <Button variant="outline-dark" onClick={() => navigate("/")}>
-          Voltar às temporadas
+          Voltar
         </Button>
       </div>
     </Container>

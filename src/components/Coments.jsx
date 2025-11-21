@@ -41,7 +41,7 @@ export default function Coments() {
                 <Form.Control
                   as="textarea"
                   rows={3}
-                  placeholder="Compartilhe sua opinião sobre sua experiência com a dev lib..."
+                  placeholder="Compartilhe sua opinião sobre sua experiência com a CEP..."
                   value={newComment}
                   onChange={(e) => setNewComment(e.target.value)}
                 />

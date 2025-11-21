@@ -25,7 +25,7 @@ function AppNavbar() {
       <Container>
         <Navbar.Brand href="/" className="d-flex align-items-center text-white">
           <img src={logo} width="40" height="40" className="me-2" />
-          <h4 className="mb-0 fw-bold">DEV LIB</h4>
+          <h4 className="mb-0 fw-bold">CEP</h4>
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="navbar-content" />
