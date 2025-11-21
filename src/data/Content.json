@@ -19,14 +19,14 @@
   },
   {
     "id": 2,
-    "season": "CSS",
-    "name": "CSS",
-    "description": "CSS (Cascading Style Sheets) é a linguagem utilizada para estilizar páginas web, controlando cores, espaçamentos, fontes, layouts, animações e responsividade. Ele transforma a estrutura criada com HTML em interfaces bonitas, organizadas e agradáveis ao usuário.",
-    "image-01": "css.jpg",
+    "season": "Literatura",
+    "name": "Literatura",
+    "description": "Literatura é a área dedicada ao estudo das manifestações artísticas escritas, explorando poemas, contos, romances, crônicas e peças teatrais. Ela revela culturas, emoções e perspectivas humanas, estimulando interpretação, criatividade e senso crítico. Através das obras literárias, o estudante compreende diferentes épocas, estilos e autores, enriquecendo sua visão de mundo e sua capacidade de análise.",
+    "image-01": "literatura.png",
     "pages": [
       {
-        "img": "",
-        "text": "CSS (Cascading Style Sheets) é a linguagem utilizada para estilizar páginas web, controlando cores, espaçamentos, fontes, layouts, animações e responsividade. Ele transforma a estrutura criada com HTML em interfaces bonitas, organizadas e agradáveis ao usuário."
+        "img": "/literatura.png",
+        "text": "Literatura é a área dedicada ao estudo das manifestações artísticas escritas, explorando poemas, contos, romances, crônicas e peças teatrais. Ela revela culturas, emoções e perspectivas humanas, estimulando interpretação, criatividade e senso crítico. Através das obras literárias, o estudante compreende diferentes épocas, estilos e autores, enriquecendo sua visão de mundo e sua capacidade de análise."
       },
       {
         "img": "season1/page2.jpg",
