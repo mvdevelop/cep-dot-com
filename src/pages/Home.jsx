@@ -1,6 +1,5 @@
 
 import React, { useState, useEffect } from "react";
-import { Container, Row, Col, Form, Button, Card } from "react-bootstrap";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { Link } from "react-router-dom";
@@ -26,16 +25,14 @@ function Home() {
   }, []);
 
   return (
-    <div className="bg-light text-dark" id="home">
-      {/* ===== Banner principal ===== */}
-      <section className="position-relative">
+    <div className="bg-gray-100 text-gray-900" id="home">
+
+      {/* ================= Banner principal ================= */}
+      <section>
         <Swiper
           spaceBetween={30}
           centeredSlides={true}
-          autoplay={{
-            delay: 4000,
-            disableOnInteraction: false,
-          }}
+          autoplay={{ delay: 4000, disableOnInteraction: false }}
           pagination={{ clickable: true }}
           navigation
           modules={[Autoplay, Pagination, Navigation]}
@@ -44,17 +41,15 @@ function Home() {
           {[banner1, banner2, banner3].map((img, index) => (
             <SwiperSlide key={index}>
               <div
-                style={{
-                  backgroundImage: `url(${img})`,
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                  height: "70vh",
-                  position: "relative",
-                }}
+                className="h-[70vh] bg-cover bg-center relative"
+                style={{ backgroundImage: `url(${img})` }}
               >
-                <div className="d-flex flex-column justify-content-center align-items-center text-center h-100 text-white bg-dark bg-opacity-50">
-                  <h1 className="display-4 fw-bold">CEP</h1>
-                  <p className="lead fw-bold container">O CEP (Copa do Ensino Público) é uma plataforma criada para organizar e centralizar conteúdos de reforço escolar para estudantes de escolas públicas. Aqui, você encontra materiais como resumos, videoaulas, exercícios, links úteis e anotações. </p>
+                <div className="flex flex-col justify-center items-center text-center h-full text-white bg-black/50 px-4">
+                  <h1 className="text-5xl font-extrabold">ENEM STATION</h1>
+                  <p className="mt-4 text-lg max-w-3xl font-semibold">
+                    O CEP (Copa do Ensino Público) é uma plataforma criada para organizar e
+                    centralizar conteúdos de reforço escolar para estudantes de escolas públicas.
+                  </p>
                 </div>
               </div>
             </SwiperSlide>
@@ -62,86 +57,80 @@ function Home() {
         </Swiper>
       </section>
 
-      {/* ===== Seção Seasons ===== */}
-      <section className="py-5" id="conteudo">
-        <Container>
-          <h2 className="text-center mb-4 fw-bold">Conteúdo</h2>
-          <Row className="g-4">
+      {/* ================= Seção Conteúdo ================= */}
+      <section className="py-12" id="conteudo">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-center text-3xl font-bold mb-10">Conteúdo</h2>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
             {content.map((season) => (
-              <Col key={season.id} xs={12} sm={6} md={3}>
-                <Card className="border-0 shadow-sm h-100">
-                  <Link
-                    to={`/season/${season.id}`}
-                    className="text-decoration-none text-dark"
-                  >
-                    <Card.Img
-                      variant="top"
-                      src={
-                        new URL(
-                          `../assets/img/${season["image-01"]}`,
-                          import.meta.url
-                        ).href
-                      }
-                      alt={season.name}
-                      style={{
-                        height: "200px",
-                        objectFit: "cover",
-                        transition: "transform 0.3s ease",
-                      }}
-                      className="hover-zoom"
-                    />
-                    <Card.Body>
-                      <Card.Title className="fw-semibold">
-                        {season.name}
-                      </Card.Title>
-                      <Card.Text className="text-secondary small">
-                        {season.description.length > 90
-                          ? season.description.slice(0, 90) + "..."
-                          : season.description}
-                      </Card.Text>
-                    </Card.Body>
-                  </Link>
-                </Card>
-              </Col>
+              <div key={season.id} className="bg-white shadow rounded-lg overflow-hidden hover:shadow-lg transition">
+                <Link to={`/season/${season.id}`} className="block text-gray-900">
+                  <img
+                    src={
+                      new URL(
+                        `../assets/img/${season["image-01"]}`,
+                        import.meta.url
+                      ).href
+                    }
+                    alt={season.name}
+                    className="h-52 w-full object-cover transition-transform duration-300 hover:scale-105"
+                  />
+
+                  <div className="p-4">
+                    <h3 className="font-semibold text-lg">{season.name}</h3>
+                    <p className="text-gray-500 text-sm mt-2">
+                      {season.description.length > 90
+                        ? season.description.slice(0, 90) + "..."
+                        : season.description}
+                    </p>
+                  </div>
+                </Link>
+              </div>
             ))}
-          </Row>
-        </Container>
+          </div>
+        </div>
       </section>
 
-      {/* ===== Seção About ===== */}
-      <section className="bg-dark text-light py-5" id="sobre">
-        <Container>
-          <Row className="align-items-center">
-            <Col md={6}>
-              <img
-                src="#"
-                alt="About Dev Lib"
-                className="img-fluid rounded shadow"
-              />
-            </Col>
-            <Col md={6} className="mt-4 mt-md-0">
-              <h2 className="fw-bold mb-3">Sobre a CEP</h2>
-              <p className="text-secondary">
-                O CEP (Copa do Ensino Público) é uma plataforma criada para organizar e centralizar
-                conteúdos de reforço escolar, reunindo materiais valiosos como resumos, videoaulas,
-                exercícios, explicações e anotações. Pensado com dedicação e focado no aprendizado
-                contínuo dos estudantes, cada nova matéria e recurso adicionado amplia ainda mais
-                as possibilidades de estudo.
-              </p>
+      {/* ================= Seção Sobre ================= */}
+      <section className="bg-gray-900 text-gray-200 py-12" id="sobre">
+        <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
 
-              <p className="text-secondary">
-                Nossa missão é aproximar os alunos do conhecimento, mostrando que o conteúdo certo
-                no momento certo pode transformar o aprendizado e fortalecer a base escolar de
-                qualquer estudante da rede pública.
-              </p>
-            </Col>
-          </Row>
-        </Container>
+          {/* IMAGEM */}
+          <div>
+            <img
+              src="#"
+              alt="Sobre CEP"
+              className="w-full rounded shadow-lg"
+            />
+          </div>
+
+          {/* TEXTO */}
+          <div>
+            <h2 className="text-3xl font-bold mb-4">Sobre a CEP</h2>
+
+            <p className="text-gray-400 mb-4">
+              O CEP (Copa do Ensino Público) é uma plataforma criada para organizar e centralizar
+              conteúdos de reforço escolar, reunindo materiais valiosos como resumos, videoaulas,
+              exercícios, explicações e anotações.
+            </p>
+
+            <p className="text-gray-400">
+              Nosso objetivo é aproximar os alunos do conhecimento, mostrando que o conteúdo certo
+              no momento certo pode transformar o aprendizado e fortalecer a base escolar dos
+              estudantes da rede pública.
+            </p>
+          </div>
+
+        </div>
       </section>
 
+      {/* Comentários */}
       <Coments />
 
+      {/* Extra */}
       <Extra />
+
     </div>
   );
 }

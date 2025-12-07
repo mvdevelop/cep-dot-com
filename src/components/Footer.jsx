@@ -1,71 +1,73 @@
 
 import React from "react";
-import { Container, Row, Col, Nav } from "react-bootstrap";
 import logo from "../../public/icon.ico";
 
 function Footer() {
   return (
-    <footer className="bg-dark text-light pt-5 pb-3 mt-auto">
-      <Container>
-        <Row className="gy-4">
-          {/* Coluna 1: Logo e descrição */}
-          <Col md={4} sm={12}>
-            <div className="d-flex align-items-center mb-3">
+    <footer className="bg-gray-900 text-gray-200 pt-10 pb-5 mt-auto">
+      <div className="max-w-7xl mx-auto px-4">
+
+        {/* GRID PRINCIPAL */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+
+          {/* COLUNA 1 - Logo e descrição */}
+          <div>
+            <div className="flex items-center mb-4">
               <img
                 src={logo}
-                alt="Elo.com Logo"
-                width="45"
-                height="45"
-                className="me-2"
+                alt="CEP Logo"
+                className="w-12 h-12 mr-2"
               />
-              <h4 className="mb-0">CEP</h4>
+              <h4 className="text-xl font-bold">CEP</h4>
             </div>
-            <p className="text-secondary small">
-              O CEP (Copa do Ensino Público) é uma plataforma criada para organizar e centralizar conteúdos de reforço escolar para estudantes de escolas públicas. Aqui, você encontra materiais como resumos, videoaulas, exercícios, links úteis e anotações. 
-              O site funciona como uma biblioteca de estudos acessível e prática, oferecendo uma interface rápida e intuitiva para pesquisar, visualizar e gerenciar conteúdos. O objetivo é ajudar cada aluno a aprender de forma mais eficiente, estruturada e preparada para superar desafios acadêmicos.
+
+            <p className="text-gray-400 text-sm leading-relaxed">
+              O CEP (Copa do Ensino Público) é uma plataforma criada para organizar e centralizar conteúdos de reforço escolar para estudantes de escolas públicas. Aqui, você encontra materiais como resumos, videoaulas, exercícios, links úteis e anotações.
+              O objetivo é ajudar cada aluno a aprender de forma eficiente, estruturada e preparada para superar desafios acadêmicos.
             </p>
-          </Col>
+          </div>
 
-          {/* Coluna 2: Navegação */}
-          <Col md={2} sm={6}>
-            <h6 className="text-uppercase fw-bold mb-3">Navegação</h6>
-            <Nav className="flex-column">
-              <Nav.Link href="#" className="text-light p-0 mb-2">Home</Nav.Link>
-              <Nav.Link href="#" className="text-light p-0 mb-2">Content</Nav.Link>
-              <Nav.Link href="#" className="text-light p-0 mb-2">Contact</Nav.Link>
-              <Nav.Link href="#" className="text-light p-0">Extra</Nav.Link>
-            </Nav>
-          </Col>
+          {/* COLUNA 2 - Navegação */}
+          <div>
+            <h6 className="uppercase font-bold mb-3 text-sm tracking-wide">Navegação</h6>
+            <ul className="space-y-2 text-gray-300 text-sm">
+              <li><a href="#" className="hover:text-white">Home</a></li>
+              <li><a href="#" className="hover:text-white">Content</a></li>
+              <li><a href="#" className="hover:text-white">Contact</a></li>
+              <li><a href="#" className="hover:text-white">Extra</a></li>
+            </ul>
+          </div>
 
-          {/* Coluna 3: Recursos */}
-          <Col md={3} sm={6}>
-            <h6 className="text-uppercase fw-bold mb-3">Recursos</h6>
-            <Nav className="flex-column">
-              <Nav.Link href="#" className="text-light p-0 mb-2">Sobre a HQ</Nav.Link>
-              <Nav.Link href="#" className="text-light p-0 mb-2">Personagens</Nav.Link>
-              <Nav.Link href="#" className="text-light p-0 mb-2">Capítulos</Nav.Link>
-              <Nav.Link href="#" className="text-light p-0">Galeria</Nav.Link>
-            </Nav>
-          </Col>
+          {/* COLUNA 3 - Recursos */}
+          <div>
+            <h6 className="uppercase font-bold mb-3 text-sm tracking-wide">Recursos</h6>
+            <ul className="space-y-2 text-gray-300 text-sm">
+              <li><a href="#" className="hover:text-white">Sobre a HQ</a></li>
+              <li><a href="#" className="hover:text-white">Personagens</a></li>
+              <li><a href="#" className="hover:text-white">Capítulos</a></li>
+              <li><a href="#" className="hover:text-white">Galeria</a></li>
+            </ul>
+          </div>
 
-          {/* Coluna 4: Contato */}
-          <Col md={3} sm={12}>
-            <h6 className="text-uppercase fw-bold mb-3">Contato</h6>
-            <p className="text-secondary small mb-1">📧 contato@elo.com</p>
-            <p className="text-secondary small mb-1">📍 São Paulo, Brasil</p>
-            <p className="text-secondary small">📞 +55 (11) 99999-9999</p>
-          </Col>
-        </Row>
+          {/* COLUNA 4 - Contato */}
+          <div>
+            <h6 className="uppercase font-bold mb-3 text-sm tracking-wide">Contato</h6>
+            <p className="text-gray-400 text-sm mb-1">📧 contato@elo.com</p>
+            <p className="text-gray-400 text-sm mb-1">📍 São Paulo, Brasil</p>
+            <p className="text-gray-400 text-sm">📞 +55 (11) 99999-9999</p>
+          </div>
 
-        <hr className="border-secondary my-4" />
+        </div>
 
-        {/* Direitos autorais */}
-        <Row>
-          <Col className="text-center text-secondary small">
-            © {new Date().getFullYear()} <strong>Elo.com</strong> — Todos os direitos reservados.
-          </Col>
-        </Row>
-      </Container>
+        {/* Divisor */}
+        <hr className="border-gray-700 my-6" />
+
+        {/* Direitos Autorais */}
+        <div className="text-center text-gray-400 text-sm">
+          © {new Date().getFullYear()} <strong>Elo.com</strong> — Todos os direitos reservados.
+        </div>
+
+      </div>
     </footer>
   );
 }
